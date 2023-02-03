@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.list-item {
+  list-style-type: none;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+.btn {
+  background-color: #382f5a;
+  border: 2px solid #d4d2db;
+  border-radius: 5px;
+  color: #d4d2db;
+  font-size: 15px;
+  width: 100%;
+}

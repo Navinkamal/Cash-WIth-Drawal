@@ -1,0 +1,68 @@
+/* Write   your CSS here */
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background-color: #150b3e;
+  width: 80%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 20px;
+  max-width: 350px;
+}
+.head-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.logo {
+  background-color: #d4d2db;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 15px;
+  color: #7c3aed;
+}
+.heading {
+  margin: 10px;
+  color: #d4d2db;
+  font-size: 30px;
+  font-weight: normal;
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+.bal-head {
+  color: #585076;
+  font-size: 25px;
+  padding-right: 30px;
+}
+.bal-amount {
+  color: #d4d2db;
+  font-size: 30px;
+  font-weight: bold;
+}
+.rupees {
+  color: #585076;
+  font-size: 15px;
+}
+.with-para {
+  color: #d4d2db;
+  font-size: 30px;
+  font-weight: bold;
+}
+.sum-para {
+  color: #585076;
+  font-size: 25px;
+}
+.list-amount {
+  display: flex;
+  justify-content: space-between;
+}
